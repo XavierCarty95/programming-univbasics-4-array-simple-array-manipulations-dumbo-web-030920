@@ -1,0 +1,43 @@
+def using_push(array , string)
+  array.push(string)
+end
+
+def using_unshift(array, string)
+  array.unshift(string)
+end
+
+def using_pop
+  array.pop
+end
+
+def pop_with_args(array , string)
+  array.pop(string)
+end
+
+def using_flatten(array , string)
+  array.flatten(string)
+end
+
+def using_shift(array)
+  array.shift(array)
+end
+
+def shift_with_args(array , string)
+  array.shift(string)
+
+end
+
+def using_concat(array , another_array)
+  array.concat(another_array)
+end
+
+def using_insert(array , string )
+  array.insert(string)
+end
+
+def using_delete(array , string)
+  array.delete(string)
+end
+
+def using_delete_at(array , num)
+end
