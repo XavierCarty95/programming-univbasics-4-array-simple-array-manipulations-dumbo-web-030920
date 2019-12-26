@@ -11,7 +11,7 @@ def using_pop
 end
 
 def pop_with_args(array , string)
-  array.pop(string)
+  puts  array.pop(string)
 end
 
 def using_flatten(array , string)
