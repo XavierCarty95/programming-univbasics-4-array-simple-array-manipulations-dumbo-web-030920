@@ -36,7 +36,7 @@ def using_insert(array , string )
 end
 
 def using_delete(array , string)
-  puts array.delete(string)
+  array.delete(string)
 
 end
 
