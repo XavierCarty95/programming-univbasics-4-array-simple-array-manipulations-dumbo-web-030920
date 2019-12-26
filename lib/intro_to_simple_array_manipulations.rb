@@ -10,8 +10,8 @@ def using_pop(array)
  array.pop
 end
 
-def pop_with_args(array , string)
-  puts array.pop(string)
+def pop_with_args(array)
+  puts array.pop(2)
 end
 
 def using_flatten(array , string)
