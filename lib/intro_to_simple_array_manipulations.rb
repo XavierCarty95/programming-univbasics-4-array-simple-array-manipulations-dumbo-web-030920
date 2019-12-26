@@ -32,7 +32,7 @@ def using_concat(array , another_array)
 end
 
 def using_insert(array , string )
- puts array.insert(4 , string)
+ array.insert(4 , string)
 end
 
 def using_delete(array , string)
