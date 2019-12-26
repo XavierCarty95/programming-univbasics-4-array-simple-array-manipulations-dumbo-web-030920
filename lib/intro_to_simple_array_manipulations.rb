@@ -11,11 +11,11 @@ def using_pop
 end
 
 def pop_with_args(array , string)
-  puts  array.pop(string)
+  puts array.pop(string)
 end
 
 def using_flatten(array , string)
-  array.flatten(string)
+  puts array.flatten(string)
 end
 
 def using_shift(array)
